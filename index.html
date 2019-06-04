@@ -106,9 +106,38 @@
         margin: 5% 0;
       }
 
+      .sub-articles img {
+        border: 8px solid #102846;
+        margin: 20px 0;
+        padding: 10px;
+        height: 200px;
+        width: 450px;
+      }
+
+      .sub-articles p {
+        margin-left: 10%;
+      }
+
+      .sub-articles tr {
+        display: inline-block;
+        width: 600px;
+      }
+
+      /******Tablet Styles********/
+
+      @media only screen and (min-width: 601px) and (max-width: 1216px){
+        .sub-articles tr {
+          display: block !important;
+          width: 100% !important;
+          min-width: 100% !important;
+          position: relative;
+          left: 0%;
+        }
+      }
+
       /******Mobile Styles********/
 
-      @media only screen and (max-width: 480px) {
+      @media only screen and (max-width: 600px) {
         /******Client Specific Styles********/
 
         html {
@@ -141,6 +170,12 @@
         }
 
         #body-cell {
+          width: 100% !important;
+          min-width: 100% !important;
+        }
+
+        .sub-articles tr {
+          display: block !important;
           width: 100% !important;
           min-width: 100% !important;
         }
@@ -195,7 +230,43 @@
 
             <tr>
 
-              <td id="container-2" align="center" valign="top">Test 2</td>
+              <td id="container-2" align="center" valign="top">
+
+                <table class="sub-articles">
+
+                  <tr>
+                    <th>
+                      <img src="https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                      <h2>Sub Article</h2>
+                      <p>
+                        Butcher shoreditch yuccie iceland typewriter man braid brooklyn organic lo-fi dreamcatcher
+                        fam trust fund brunch pabst wayfarers. Flexitarian truffaut YOLO four dollar toast activated
+                        charcoal narwhal disrupt pour-over brooklyn direct trade austin bushwick crucifix.
+                        Skateboard jianbing man braid, keytar green juice synth semiotics beard flexitarian kombucha
+                        sartorial photo booth umami tbh. Small batch hoodie health goth, microdosing narwhal pop-up
+                        echo park iceland vice kombucha keytar before they sold out. Vinyl slow-carb deep v brunch chicharrones ramps.
+                      </p>
+                    </th>
+                  </tr>
+
+                  <tr>
+                    <th>
+                      <img src="https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                      <h2>Sub Article</h2>
+                      <p>
+                        Butcher shoreditch yuccie iceland typewriter man braid brooklyn organic lo-fi dreamcatcher
+                        fam trust fund brunch pabst wayfarers. Flexitarian truffaut YOLO four dollar toast activated
+                        charcoal narwhal disrupt pour-over brooklyn direct trade austin bushwick crucifix.
+                        Skateboard jianbing man braid, keytar green juice synth semiotics beard flexitarian kombucha
+                        sartorial photo booth umami tbh. Small batch hoodie health goth, microdosing narwhal pop-up
+                        echo park iceland vice kombucha keytar before they sold out. Vinyl slow-carb deep v brunch chicharrones ramps.
+                      </p>
+                    </th>
+                  </tr>
+
+                </table>
+
+              </td>
 
             </tr>
 
