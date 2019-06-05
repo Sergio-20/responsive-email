@@ -67,22 +67,27 @@
         scroll-behavior: smooth !important;
       }
 
+      body {
+        margin: 0 auto;
+        width: 600px !important;
+      }
+
       a {
         color: #fff;
         text-decoration: none;
       }
 
       img {
-        border: 8px solid #102846;
         margin: 20px 0;
-        padding: 10px;
-        height: 300px;
-        width: 650px;
+        position: relative;
+        top: -20px;
+        height: 360px;
+        width: 100%;
       }
 
       p {
         font-weight: bolder;
-        text-align: left;
+        text-align: center;
         width: 75%;
       }
 
@@ -92,6 +97,7 @@
         font-weight: 600;
         margin: 0 6px;
         padding: 10px;
+        list-style-type: none !important;
       }
 
       ul:hover {
@@ -106,16 +112,18 @@
         margin: 5% 0;
       }
 
-      .sub-articles img {
-        border: 8px solid #102846;
-        margin: 20px 0;
+      .btn {
+        background-color: #fff;
+        color: #333;
+        margin-bottom: 30px;
+        margin-top: 10px;
         padding: 10px;
-        height: 200px;
-        width: 450px;
+        width: 35%;
       }
 
       .sub-articles p {
-        margin-left: 10%;
+        margin-left: 12%;
+        text-align: right;
       }
 
       .sub-articles tr {
@@ -186,18 +194,18 @@
 
   </head>
 
-  <body style="background-color: #102846;">
+  <body>
     <table id="body-table" style="align: center;" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
 
       <tr>
 
         <td id="body-cell" align="center" valign="top">
 
-          <table style="background-color: #a89344; color: #fff;" id="email-container" border="0" cellspacing="0" cellpadding="0">
+          <table style="background-color: #a89344; color: #fff !important;" id="email-container" border="0" cellspacing="0" cellpadding="0">
 
             <tr>
 
-              <td style="background-color: #fff;" id="container-0" align="center" valign="top">
+              <td style="background-color: #102846;" id="container-0" align="center" valign="top">
 
                 <ul>
                   <a href="#"><li>Home</li></a>
@@ -214,8 +222,8 @@
             <tr>
 
               <td id="container-1" align="center" valign="top">
-                <img src="https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                <h2>Hero Article</h2>
+                <img src="https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                <h2>The Freelance Lifestyle</h2>
                 <p>
                   Butcher shoreditch yuccie iceland typewriter man braid brooklyn organic lo-fi dreamcatcher
                   fam trust fund brunch pabst wayfarers. Flexitarian truffaut YOLO four dollar toast activated
@@ -224,6 +232,7 @@
                   sartorial photo booth umami tbh. Small batch hoodie health goth, microdosing narwhal pop-up
                   echo park iceland vice kombucha keytar before they sold out. Vinyl slow-carb deep v brunch chicharrones ramps.
                 </p>
+                <button class="btn">Learn More</button>
               </td>
 
             </tr>
@@ -236,8 +245,8 @@
 
                   <tr>
                     <th>
-                      <img src="https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                      <h2>Sub Article</h2>
+                      <img src="https://images.pexels.com/photos/842921/pexels-photo-842921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                      <h2>John's Lifestyle - Working Outside</h2>
                       <p>
                         Butcher shoreditch yuccie iceland typewriter man braid brooklyn organic lo-fi dreamcatcher
                         fam trust fund brunch pabst wayfarers. Flexitarian truffaut YOLO four dollar toast activated
@@ -251,8 +260,8 @@
 
                   <tr>
                     <th>
-                      <img src="https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
-                      <h2>Sub Article</h2>
+                      <img src="https://images.pexels.com/photos/920381/pexels-photo-920381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                      <h2>Jane's Lifestyle - Working From Home </h2>
                       <p>
                         Butcher shoreditch yuccie iceland typewriter man braid brooklyn organic lo-fi dreamcatcher
                         fam trust fund brunch pabst wayfarers. Flexitarian truffaut YOLO four dollar toast activated
@@ -272,7 +281,7 @@
 
             <tr>
 
-              <td style="background-color: #fff;" id="container-3" align="center" valign="top">
+              <td style="background-color: #102846;" id="container-3" align="center" valign="top">
                 <ul>
                   <a href="#"><li>123 Main St.</li></a>
                   <a href="#"><li>San Francisco, CA</li></a>
